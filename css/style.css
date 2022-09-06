@@ -1,0 +1,93 @@
+/*Default text is Arial font with Verdana as a fallback option
+Black background (use hexadecimal values)
+White font (use hexadecimal values)
+Margin of 20px on the top and sides.  None on the bottom.
+*/
+body{
+    font-family: Arial, Verdana;
+    color: #ffffff;
+    background-color: #000000;
+    margin:20px 20px 0 20px;
+}
+
+h1{
+    text-align: center; 
+    font-size: 42px;
+    padding: 15px;
+}
+
+h2{
+    font-size: 30px;
+    color: #0D0D0D;
+}
+h2.blue{
+    color: #C4C4C4;
+}
+p{
+    font-size: 24px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+/*Style the default style for images so that:
+All images are centered */
+img{
+    border: 10px dashed;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+}
+/* flexible height of at least 125px*/
+div{
+    min-height: 125px;
+    padding: 20px;
+    border: 3px solid #ffffff ;
+}
+.introduction{
+    border-radius: 15px;
+    margin-top: 15px;
+    line-height: 2;
+}
+.red{
+    background-color: #ff0000;
+    text-align: right;
+    margin-left: 50px;
+    border-bottom: 2px solid;
+    border-left: 5px solid;
+    border-right: none;
+}
+
+.blue{
+    background-color: #0000ff;
+    text-align: left;
+    margin-right: 50px;
+    border-top: 2px solid;
+    border-right: 5px solid;
+    border-left: none;
+}
+/*need to override h2 color here*/
+
+.yellow{
+    background-color: #ffff00;
+    text-align: right;
+    margin-left: 50px;
+    border-bottom: 2px solid;
+    border-left: 5px solid;
+    border-right: none;
+}
+/*need to overrie p color here*/
+p.yellow{
+    color: #000000
+}
+.green{
+    background-color: #008500;
+    text-align: left;
+    margin-right: 50px;
+    border-right: 5px solid;
+    border-top: 2px solid;
+    border-left: none;
+}
+/*a gradient background that starts at #000000, goes to #0000ff at 25,  #0066ff at 70, and ends back at #000000*/
+footer{
+border: 5px solid #ffffff;
+}
